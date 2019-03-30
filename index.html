@@ -3,6 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>Third Project </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+            <script>
+                $(document).ready(function(){
+                $('.slider').bxSlider();
+                });
+            </script>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body><!---Page starts-->
@@ -19,7 +28,7 @@
                     <img src="images/phone.png">
                    <p>+977-343-387487</p>
 
-                    <input type="text" class="search" value="Search..." >
+                    <input type="text" class="search" placeholder="Search..." >
                     
                 </div>
             </header>
@@ -28,7 +37,7 @@
             <!--Start of Menu-->
             <div class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Tour Packages</a></li>
                     <li><a href="#">Facilities</a></li>
@@ -40,7 +49,10 @@
             <!--End of Menu-->
             <!--Slider Start--->
             <div class="slider">
-                <img src="images/slider.png">
+                <div><img src="images/slider.png"></div>
+                <div><img src="images/tiger1.jpg"></div>
+                <div><img src="images/monkey.jpg"></div>
+                
             </div>
             <!--Slider End-->  
             <!--Content Start-->
@@ -53,36 +65,41 @@
                             <br><br>
                             <span><a href="#">view in details</a></span>
                     </p>
+                    <h1>Our Events</h1>
                     <div class="features">
-                        <h1>Our Events</h1>
+                        
                         <div class="event">
                             <h2>Horse Riding</h2>
                             <img src="images/eventOne.jpg">
-                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br><br>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br>
                              <span><a href="#">view in details</a></span>
                             </p>
                            
                         </div>
-
-                        <div class="event">
-                                <h2>Hiking</h2>
-                                <img src="images/event3.jpg">
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br><br>
-                                 <span><a href="#">view in details</a></span>
-                                </p>
-                               
-                            </div>
-
-                            <div class="event">
-                                    <h2>Bonding</h2>
-                                    <img src="images/event4.jpg">
-                                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br><br>
-                                     <span><a href="#">view in details</a></span>
-                                    </p>
-                                   
-                                </div>
-                            
                     </div>
+                    <div class="features">
+                        
+                        <div class="event">
+                            <h2>Trekking</h2>
+                            <img src="images/event2.jpg">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br>
+                             <span><a href="#">view in details</a></span>
+                            </p>
+                           
+                        </div>
+                    </div>
+                    <div class="features">
+                        
+                        <div class="event">
+                            <h2>Hiking</h2>
+                            <img src="images/event3.jpg">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br>
+                             <span><a href="#">view in details</a></span>
+                            </p>
+                           
+                        </div>
+                    </div>
+                    
                 </div>
                 <!--End Content Left-->
                 <!--Start of Content Right-->
@@ -98,14 +115,48 @@
                             <li><a href="#">Jungle Tours</a></li>
                             <li><a href="#">Lake Swimming</a></li>
                             <li><a href="#">Service Center</a></li>
-                            <span><a href="View in details"></a></span>
 
                         </ul>
+                        <p><a href="View in details"></a></p>
                     </div>
+                    <div class="info">
+                            <h2>WildLife Tour</h2>
+                            <ul>
+                                <li><a href="#">Wildlife Tours</a></li>
+                                <li><a href="#">Animals Encounters</a></li>
+                                <li><a href="#">Jungle Tours</a></li>
+                                <li><a href="#">Lake Swimming</a></li>
+                                <li><a href="#">Service Center</a></li>
+    
+                            </ul>
+                            <p><a href="View in details"></a></p>
+                        </div>
+                        
+                        <div class="info">
+                                <h2>Services</h2>
+                                <ul>
+                                    <li><a href="#">Wildlife Tours</a></li>
+                                    <li><a href="#">Animals Encounters</a></li>
+                                    <li><a href="#">Jungle Tours</a></li>
+                                    <li><a href="#">Lake Swimming</a></li>
+                                    <li><a href="#">Service Center</a></li>
+        
+                                </ul>
+                                <p><a href="View in details"></a></p>
+                            </div>
+            
                 </div>
+                <div class="clear"></div>
+
                 <!--End of Content Right-->
             </div>
             <!--Content End-->
+            <!--Footer Start-->
+            
+            <footer>
+                <p>All Rights are reserved</p>
+            </footer>
+            <!--Footer End-->
         </div> 
         <!--Page Ends-->
 
